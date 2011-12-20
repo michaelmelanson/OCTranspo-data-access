@@ -1,6 +1,11 @@
 require 'sinatra'
 require 'csv'
 require 'json'
+require 'logger'
+
+require './models.rb'
+
+ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 class Numeric
 
@@ -46,8 +51,17 @@ MAX_MAX_RESULTS = 50
 
 
 # Load the data into memory
-$stops = CSV.table("data/google_transit/stops.txt")
+# TODO: Make the data_processor tool import these as well
+puts "Loading stop data..."
+$stops      = CSV.table("data/google_transit/stops.txt")
 
+puts "Loading route data..."
+$routes     = CSV.table("data/google_transit/routes.txt")
+
+puts "Loading trip data..."
+$trips      = CSV.table("data/google_transit/trips.txt")
+
+puts "Finished loading data"
 
 get '/stops/nearest' do
   
@@ -69,8 +83,7 @@ get '/stops/nearest' do
     
     # We only care about it if it's within the range the user specified
     next if dist > range
-    
-    puts "    It's within range"
+
     # Add it to the list of stops
     stop_distances << { 
       :stop_index => index,
@@ -111,4 +124,30 @@ get '/stop/:code' do
   # Return the stop data at that index
   content_type :json
   $stops[stop_index].to_hash.to_json
+end
+
+get '/trips/by_stop/:stop_id' do
+  stop_id = params[:stop_id]
+  
+  # First, get the IDs of all trips that go to this stop
+  matching_stop_times = StopTime.find_all_by_stop_id(stop_id)
+
+  trip_ids = []
+  matching_stop_times.each do |stop_time|
+    trip_ids = stop_time.trip_id
+  end
+  
+  puts "Trip IDs are: #{trip_ids}"
+  
+  # Next, look up the data for those trips
+  matching_trips = []
+  $trips.each do |trip|
+    if trip_ids.include? trip[:trip_id]
+      matching_trips << trip.to_hash
+    end
+  end
+  
+  # Return it as JSON data
+  content_type :json
+  matching_trips.to_json
 end
