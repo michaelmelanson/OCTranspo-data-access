@@ -90,3 +90,25 @@ get '/stops/nearest' do
   content_type :json
   nearest_stops.map(&:to_hash).to_json
 end
+
+
+get '/stop/:code' do
+  code = params[:code].to_i
+  
+  # Get a list of all stop codes in the same order as $stops
+  all_codes = $stops.by_col[:stop_code].to_a
+
+  # Find the index of the code that the user is looking for
+  stop_index = all_codes.index(code)
+  
+  if stop_index.nil?
+    # We couldn't find it, so return 404 Not Found
+    status 404
+    return
+  end
+    
+  
+  # Return the stop data at that index
+  content_type :json
+  $stops[stop_index].to_hash.to_json
+end
