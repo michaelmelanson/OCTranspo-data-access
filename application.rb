@@ -105,6 +105,21 @@ get '/stops/nearest' do
 end
 
 
+get '/stops' do
+  startswith = params[:startswith]
+  
+  matches = []
+  $stops.by_col[:stop_code].to_a.each do |stop_code|
+    stop_code = stop_code.to_i
+    if startswith.nil? or stop_code.to_s.starts_with? startswith
+      matches.push(stop_code)
+    end
+  end
+  
+  content_type :json
+  matches.to_json
+end
+
 get '/stop/:code' do
   code = params[:code].to_i
   
