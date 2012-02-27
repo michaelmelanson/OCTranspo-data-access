@@ -74,7 +74,6 @@ get '/stops/nearest' do
   # Find the distances of each stop to this location
   stop_distances = []
   
-  index = 0   # we use this to keep track of the stop's index in $stops, for faster lookup
   $stops.each do |stop|
     
     # We use the Euclidian distance here, which is close enough to the Great Circle distance, over small scales, 
@@ -86,18 +85,16 @@ get '/stops/nearest' do
 
     # Add it to the list of stops
     stop_distances << { 
-      :stop_index => index,
+      :stop => stop,
       :distance => dist
     }
-    
-    index += 1
   end
   
   # Sort it by the distance to the location
   stop_distances.sort_by! { |x| x[:distance] }
   
   # Get a list of the stops closest to the location
-  nearest_stops = stop_distances.take(max_results).map { |s| $stops[s[:stop_index]] }
+  nearest_stops = stop_distances.take(max_results).map { |s| s[:stop] }
 
   # Send it back to the user as JSON data
   content_type :json
