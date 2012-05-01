@@ -5,6 +5,9 @@ require 'logger'
 
 require './models.rb'
 
+STDOUT.sync = true
+STDERR.sync = true
+
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 class Numeric
