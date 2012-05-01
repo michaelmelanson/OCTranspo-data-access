@@ -53,7 +53,7 @@ Updating the data files
   ruby data_processor.rb
 
 Note that there's no `bundle exec` here because of a silly incompatibility between two gems. This will take a bit to 
-run. There's a lot of data. It will print its status as it goes ("Dumping data at index...") every 5,000 stop times. 
+run. There's a lot of data. It will print its status as it goes ("Dumping data at index...") every 50,000 stop times. 
 There are about 1,800,000 entries total.
 
 5) If the service is running, then restart it so it uses the updated data.
