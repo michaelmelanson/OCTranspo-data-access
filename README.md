@@ -30,7 +30,7 @@ the libraries it depends on.
 
 5) Start the service
 
-    foreman start
+    foreman start -p 3000
 
 
 Updating the data files
