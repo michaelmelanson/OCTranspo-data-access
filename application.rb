@@ -61,10 +61,25 @@ $stops      = CSV.table("data/google_transit/stops.txt")
 puts "Loading route data..."
 $routes     = CSV.table("data/google_transit/routes.txt")
 
-puts "Loading trip data..."
-$trips      = CSV.table("data/google_transit/trips.txt")
-
 puts "Finished loading data"
+
+
+# Some helper methods
+
+def stop_ids_by_code(stop_code)
+  stop_ids = []
+  $stops.each do |stop|
+    if stop[:stop_code].to_i == stop_code
+      stop_ids << stop[:stop_id]
+    end
+  end
+
+  return stop_ids
+end
+
+
+
+# Sinatra handlers
 
 get '/stops/nearest' do
   
@@ -141,38 +156,69 @@ get '/stop/:code' do
   $stops[stop_index].to_hash.to_json
 end
 
-get '/trips/by_stop/:stop_code' do
+
+get '/stop/:stop_code/routes' do
   stop_code = params[:stop_code].to_i
+
   
   # Look up the stop code to get the stop ID
-  all_stop_codes = $stops.by_col[:stop_code].map{ |code| code.to_i }
-  stop_index = all_stop_codes.to_a.index(stop_code)
-  if stop_index.nil?
+  stop_ids = stop_ids_by_code(stop_code)
+  if stop_ids.empty?
     status 404
     return
   end
   
-  stop_id = $stops[stop_index].to_hash[:stop_id]
-  
-  # Next, get the IDs of all trips that go to this stop
-  matching_stop_times = StopTime.find_all_by_stop_id(stop_id)
+  puts "Stop IDs are: #{stop_ids}"
 
-  trip_ids = []
-  matching_stop_times.each do |stop_time|
-    trip_ids << stop_time.trip_id
-  end
-  
-  # Finally, look up the data for those trips
-  matching_trips = []
-  $trips.each do |trip|
-    if trip_ids.include? trip[:trip_id]
-      matching_trips << trip.to_hash
+  # Get the trips that go to this stop
+  stop_times = StopTime.find_all_by_stop_id(stop_ids)
+
+  # What trip IDs do these correspond to?
+  trip_ids = stop_times.map {|stop_time| stop_time.trip_id }
+
+  # Get the matching trips
+  matching_trips = Trip.find_all_by_trip_id(trip_ids)
+
+  # Finally reduce it to a list of routes
+  route_ids = matching_trips.map {|trip| trip[:route_id] }
+
+  routes = []
+  $routes.each do |route|
+    if route_ids.include? route[:route_id]
+      routes << route[:route_short_name]
     end
   end
+
+
+  # Return it as JSON data
+  content_type :json
+  routes.uniq.to_json
+end
+
+
+get '/trips/by_stop/:stop_code' do
+  stop_code = params[:stop_code].to_i
   
+  # Look up the stop code to get the stop ID
+  stop_ids = stop_ids_by_code(stop_code)
+  if stop_ids.empty?
+    status 404
+    return
+  end
+  
+
+  # Get the trips that go to this stop
+  stop_times = StopTime.find_all_by_stop_id(stop_ids)
+
+  # What trip IDs do these correspond to?
+  trip_ids = stop_times.map {|stop_time| stop_time.trip_id }
+
+  # Get the matching trips
+  matching_trips = Trip.find_all_by_trip_id(trip_ids)
+
   response_data = {
     trips: matching_trips,
-    times: matching_stop_times
+    times: stop_times
   }
     
   # Return it as JSON data

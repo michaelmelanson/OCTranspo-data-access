@@ -5,6 +5,9 @@ require 'logger'
 
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
+
+# Stop time data
+
 index = 0
 
 BATCH_SIZE = 50000
@@ -32,3 +35,18 @@ CSV.foreach("data/google_transit/stop_times.txt", :headers => :first_row) do |st
 end
 
 dump_batch
+
+
+# Trip data
+
+puts "Processing trip data..."
+
+Trip.transaction do
+  CSV.foreach("data/google_transit/trips.txt", :headers => :first_row) do |trip|
+    Trip.create(:route_id => trip["route_id"],
+                :service_id => trip["service_id"],
+                :trip_id => trip["trip_id"],
+                :trip_headsign => trip["trip_headsign"],
+                :block_id => trip["block_id"])
+  end
+end
