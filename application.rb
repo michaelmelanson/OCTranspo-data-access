@@ -155,8 +155,6 @@ get '/trips/by_stop/:stop_id' do
     trip_ids = stop_time.trip_id
   end
   
-  puts "Trip IDs are: #{trip_ids}"
-  
   # Next, look up the data for those trips
   matching_trips = []
   $trips.each do |trip|
