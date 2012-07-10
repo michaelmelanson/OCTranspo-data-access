@@ -1,291 +1,324 @@
 route_id,route_short_name,route_long_name,route_desc,route_type
-1-125,1,,,3
-1-135,1,,,3
-2-125,2,,,3
-2-135,2,,,3
-4-125,4,,,3
-4-135,4,,,3
-5-125,5,,,3
-5-135,5,,,3
-6-125,6,,,3
-6-135,6,,,3
-7-125,7,,,3
-7-135,7,,,3
-8-125,8,,,3
-8-135,8,,,3
-9-125,9,,,3
-9-135,9,,,3
-12-125,12,,,3
-12-135,12,,,3
-14-125,14,,,3
-14-135,14,,,3
-16-125,16,,,3
-16-135,16,,,3
-18-125,18,,,3
-18-135,18,,,3
-20-125,20,,,3
-20-135,20,,,3
-21-125,21,,,3
-21-135,21,,,3
-22-125,22,,,3
-22-135,22,,,3
-24-125,24,,,3
-24-135,24,,,3
-27-125,27,,,3
-27-135,27,,,3
-30-125,30,,,3
-30-135,30,,,3
-31-125,31,,,3
-31-135,31,,,3
-34-125,34,,,3
-34-135,34,,,3
-35-125,35,,,3
-35-135,35,,,3
-37-125,37,,,3
-37-135,37,,,3
-38-125,38,,,3
-38-135,38,,,3
-40-125,40,,,3
-40-135,40,,,3
-41-125,41,,,3
-41-135,41,,,3
-43-125,43,,,3
-43-135,43,,,3
-60-125,60,,,3
-60-135,60,,,3
-61-125,61,,,3
-61-135,61,,,3
-62-125,62,,,3
-62-135,62,,,3
-65-125,65,,,3
-65-135,65,,,3
-66-125,66,,,3
-66-135,66,,,3
-67-125,67,,,3
-67-135,67,,,3
-68-125,68,,,3
-68-135,68,,,3
-69-125,69,,,3
-69-135,69,,,3
-70-125,70,,,3
-70-135,70,,,3
-71-125,71,,,3
-71-135,71,,,3
-73-125,73,,,3
-73-135,73,,,3
-76-125,76,,,3
-76-135,76,,,3
-77-125,77,,,3
-77-135,77,,,3
-85-125,85,,,3
-85-135,85,,,3
-86-125,86,,,3
-86-135,86,,,3
-87-125,87,,,3
-87-135,87,,,3
-93-125,93,,,3
-93-135,93,,,3
-94-125,94,,,3
-94-135,94,,,3
-95-125,95,,,3
-95-135,95,,,3
-96-125,96,,,3
-96-135,96,,,3
-97-125,97,,,3
-97-135,97,,,3
-98-125,98,,,3
-98-135,98,,,3
-99-125,99,,,3
-99-135,99,,,3
-101-125,101,,,3
-101-135,101,,,3
-102-125,102,,,3
-102-135,102,,,3
-105-125,105,,,3
-105-135,105,,,3
-106-125,106,,,3
-106-135,106,,,3
-111-125,111,,,3
-111-135,111,,,3
-112-125,112,,,3
-112-135,112,,,3
-114-125,114,,,3
-114-135,114,,,3
-116-125,116,,,3
-116-135,116,,,3
-118-125,118,,,3
-118-135,118,,,3
-120-125,120,,,3
-120-135,120,,,3
-121-125,121,,,3
-121-135,121,,,3
-122-125,122,,,3
-122-135,122,,,3
-123-125,123,,,3
-123-135,123,,,3
-124-125,124,,,3
-124-135,124,,,3
-126-125,126,,,3
-126-135,126,,,3
-127-125,127,,,3
-127-135,127,,,3
-128-125,128,,,3
-128-135,128,,,3
-129-125,129,,,3
-129-135,129,,,3
-130-125,130,,,3
-130-135,130,,,3
-131-125,131,,,3
-131-135,131,,,3
-132-125,132,,,3
-132-135,132,,,3
-134-125,134,,,3
-134-135,134,,,3
-135-125,135,,,3
-135-135,135,,,3
-136-125,136,,,3
-136-135,136,,,3
-137-125,137,,,3
-137-135,137,,,3
-140-125,140,,,3
-140-135,140,,,3
-143-125,143,,,3
-143-135,143,,,3
-144-125,144,,,3
-144-135,144,,,3
-146-125,146,,,3
-146-135,146,,,3
-147-125,147,,,3
-147-135,147,,,3
-148-125,148,,,3
-148-135,148,,,3
-149-125,149,,,3
-149-135,149,,,3
-150-125,150,,,3
-150-135,150,,,3
-151-125,151,,,3
-151-135,151,,,3
-152-125,152,,,3
-152-135,152,,,3
-156-125,156,,,3
-156-135,156,,,3
-157-125,157,,,3
-157-135,157,,,3
-159-125,159,,,3
-159-135,159,,,3
-161-125,161,,,3
-161-135,161,,,3
-163-125,163,,,3
-163-135,163,,,3
-164-125,164,,,3
-164-135,164,,,3
-168-125,168,,,3
-168-135,168,,,3
-169-125,169,,,3
-170-125,170,,,3
-170-135,170,,,3
-171-125,171,,,3
-171-135,171,,,3
-172-125,172,,,3
-172-135,172,,,3
-173-125,173,,,3
-173-135,173,,,3
-174-125,174,,,3
-174-135,174,,,3
-175-125,175,,,3
-175-135,175,,,3
-176-125,176,,,3
-176-135,176,,,3
-177-125,177,,,3
-177-135,177,,,3
-178-125,178,,,3
-178-135,178,,,3
-180-125,180,,,3
-180-135,180,,,3
-181-135,181,,,3
-182-125,182,,,3
-182-135,182,,,3
-183-125,183,,,3
-183-135,183,,,3
-186-125,186,,,3
-186-135,186,,,3
-189-125,189,,,3
-189-135,189,,,3
-192-125,192,,,3
-192-135,192,,,3
-193-125,193,,,3
-193-135,193,,,3
-194-125,194,,,3
-194-135,194,,,3
-199-125,199,,,3
-199-135,199,,,3
-201-125,201,,,3
-201-135,201,,,3
-202-125,202,,,3
-202-135,202,,,3
-203-125,203,,,3
-203-135,203,,,3
-204-125,204,,,3
-204-135,204,,,3
-205-125,205,,,3
-205-135,205,,,3
-221-125,221,,,3
-221-135,221,,,3
-231-125,231,,,3
-231-135,231,,,3
-232-125,232,,,3
-232-135,232,,,3
-245-125,245,,,3
-245-135,245,,,3
-261-125,261,,,3
-261-135,261,,,3
-262-125,262,,,3
-262-135,262,,,3
-263-125,263,,,3
-263-135,263,,,3
-283-125,283,,,3
-283-135,283,,,3
-601-125,601,,,3
-601-135,601,,,3
-602-125,602,,,3
-602-135,602,,,3
-611-125,611,,,3
-611-135,611,,,3
-612-125,612,,,3
-612-135,612,,,3
-613-125,613,,,3
-613-135,613,,,3
-618-125,618,,,3
-618-135,618,,,3
-619-125,619,,,3
-619-135,619,,,3
-622-125,622,,,3
-622-135,622,,,3
-632-125,632,,,3
-632-135,632,,,3
-633-125,633,,,3
-633-135,633,,,3
-640-125,640,,,3
-640-135,640,,,3
-641-125,641,,,3
-641-135,641,,,3
-648-125,648,,,3
-648-135,648,,,3
-661-125,661,,,3
-661-135,661,,,3
-665-125,665,,,3
-665-135,665,,,3
-669-125,669,,,3
-669-135,669,,,3
-670-125,670,,,3
-670-135,670,,,3
-674-125,674,,,3
-674-135,674,,,3
-678-125,678,,,3
-678-135,678,,,3
-681-125,681,,,3
-681-135,681,,,3
-691-125,691,,,3
-691-135,691,,,3
-750-125,OTrn,,,2
-750-135,OTrn,,,2
+1-135,1,Bank - - Rockcliffe,,3
+1-136,1,Bank - - Rockcliffe,,3
+1-138,1,Bank - - Rockcliffe,,3
+2-135,2,Richmond - Somerset,,3
+2-136,2,Richmond - Somerset,,3
+2-138,2,Richmond - Somerset,,3
+4-135,4,Bronson,,3
+4-136,4,Bronson,,3
+4-138,4,Bronson,,3
+5-135,5,Billings -- Main -- Vanier,,3
+5-136,5,Billings -- Main -- Vanier,,3
+5-138,5,Billings -- Main -- Vanier,,3
+6-135,6,Carling -- Glebe,,3
+6-136,6,Carling -- Glebe,,3
+7-135,7,Carleton --Bank -- St Laurent,,3
+7-136,7,Carleton --Bank -- St Laurent,,3
+7-138,7,Carleton --Bank -- St Laurent,,3
+8-135,8,Gatineau -- Alta Vista,,3
+8-136,8,Gatineau -- Alta Vista,,3
+8-138,8,Gatineau -- Alta Vista,,3
+9-135,9,Downtown -- Vanier,,3
+9-136,9,Downtown -- Vanier,,3
+9-138,9,Downtown -- Vanier,,3
+12-135,12,Blair - Montreal - Downtown,,3
+12-136,12,Blair - Montreal - Downtown,,3
+12-138,12,Blair - Montreal - Downtown,,3
+14-135,14,Carlington -- Gladstone -- McArthur,,3
+14-136,14,Carlington -- Gladstone -- McArthur,,3
+14-138,14,Carlington -- Gladstone -- McArthur,,3
+16-135,16,Dovercourt -- Scott -- Main,,3
+16-136,16,Dovercourt -- Scott -- Main,,3
+16-138,16,Dovercourt -- Scott -- Main,,3
+18-135,18,St.Laurent / Rideau Centre,,3
+18-136,18,St.Laurent / Rideau Centre,,3
+18-138,18,St.Laurent / Rideau Centre,,3
+20-135,20,Express Fallingbrook,,3
+20-136,20,Express Fallingbrook,,3
+21-135,21,Express Queenswood Heights,,3
+21-136,21,Express Queenswood Heights,,3
+22-135,22,Express Fallingbrook,,3
+22-136,22,Express Fallingbrook,,3
+24-135,24,Peak/Pointe Beacon Hill,,3
+24-136,24,Peak/Pointe Beacon Hill,,3
+27-135,27,Express Gatineau -- Queenswood Heights,,3
+27-136,27,Express Gatineau -- Queenswood Heights,,3
+30-135,30,Express Chateau Neuf,,3
+30-136,30,Express Chateau Neuf,,3
+31-135,31,Express Chapel Hill,,3
+31-136,31,Express Chapel Hill,,3
+34-135,34,Express Chateau Neuf,,3
+34-136,34,Express Chateau Neuf,,3
+35-135,35,Express Fallingbrook,,3
+35-136,35,Express Fallingbrook,,3
+37-135,37,Express Convent Glen N,,3
+37-136,37,Express Convent Glen N,,3
+38-135,38,Express Jeanne D'Arc N,,3
+38-136,38,Express Jeanne D'Arc N,,3
+40-135,40,Peak/Pointe Gatineau -- Blossom Park,,3
+40-136,40,Peak/Pointe Gatineau -- Blossom Park,,3
+41-135,41,Peak/Pointe  Heatherington,,3
+41-136,41,Peak/Pointe  Heatherington,,3
+43-135,43,Peak/Pointe South Keys,,3
+43-136,43,Peak/Pointe South Keys,,3
+60-135,60,Express Morgans Grant,,3
+60-136,60,Express Morgans Grant,,3
+61-135,61,Express Bridlewood,,3
+61-136,61,Express Bridlewood,,3
+62-135,62,Express Hazeldean,,3
+62-136,62,Express Hazeldean,,3
+65-135,65,Express Beaverbrook,,3
+65-136,65,Express Beaverbrook,,3
+66-135,66,Express Bridlewood,,3
+66-136,66,Express Bridlewood,,3
+67-135,67,Peak/Pointe Trend Village,,3
+67-136,67,Peak/Pointe Trend Village,,3
+68-135,68,Express Marchwood,,3
+68-136,68,Express Marchwood,,3
+69-135,69,Express Bells Corners,,3
+69-136,69,Express Bells Corners,,3
+70-135,70,Express Barrhaven,,3
+70-136,70,Express Barrhaven,,3
+71-135,71,Express--Barhaven,,3
+71-136,71,Express--Barhaven,,3
+73-135,73,Express Barrhaven,,3
+73-136,73,Express Barrhaven,,3
+76-135,76,Express Barrhaven,,3
+76-136,76,Express Barrhaven,,3
+77-135,77,Express Longfields -- Davidson Heights,,3
+77-136,77,Express Longfields -- Davidson Heights,,3
+85-135,85,Carling -- Hurdman,,3
+85-136,85,Carling -- Hurdman,,3
+85-138,85,Carling -- Hurdman,,3
+86-135,86,Meadowlands -- Southvale,,3
+86-136,86,Meadowlands -- Southvale,,3
+86-138,86,Meadowlands -- Southvale,,3
+87-135,87,Carlingwood -- Transitway -- Riverside,,3
+87-136,87,Carlingwood -- Transitway -- Riverside,,3
+87-138,87,Carlingwood -- Transitway -- Riverside,,3
+93-135,93,Lincoln Fields / Kanata North,,3
+93-136,93,Lincoln Fields / Kanata North,,3
+93-138,93,Lincoln Fields / Kanata North,,3
+94-135,94,Transitway,,3
+94-136,94,Transitway,,3
+94-138,94,Transitway,,3
+95-135,95,Transitway,,3
+95-136,95,Transitway,,3
+95-138,95,Transitway,,3
+96-135,96,Transitway,,3
+96-136,96,Transitway,,3
+96-138,96,Transitway,,3
+97-135,97,Transitway,,3
+97-136,97,Transitway,,3
+97-138,97,Transitway,,3
+98-135,98,Transitway,,3
+98-136,98,Transitway,,3
+98-138,98,Transitway,,3
+99-135,99,Riverside South - Greenboro,,3
+99-136,99,Riverside South - Greenboro,,3
+99-138,99,Riverside South - Greenboro,,3
+101-135,101,Transitway,,3
+101-136,101,Transitway,,3
+102-135,102,Orleans -- Queensway -- Tunneys,,3
+102-136,102,Orleans -- Queensway -- Tunneys,,3
+105-135,105,Gatineau - Tunney's,,3
+105-136,105,Gatineau - Tunney's,,3
+106-135,106,Transitway,,3
+106-136,106,Transitway,,3
+106-138,106,Transitway,,3
+111-135,111,Billings Bridge / Baseline / Carleton,,3
+111-136,111,Billings Bridge / Baseline / Carleton,,3
+111-138,111,Billings Bridge / Baseline / Carleton,,3
+112-135,112,Billing Bridge / Elmvale,,3
+112-136,112,Billing Bridge / Elmvale,,3
+112-138,112,Billing Bridge / Elmvale,,3
+114-135,114,Greenboro / Hurdman,,3
+114-136,114,Greenboro / Hurdman,,3
+114-138,114,Greenboro / Hurdman,,3
+116-135,116,South Keys \ Merivale,,3
+116-136,116,South Keys \ Merivale,,3
+116-138,116,South Keys \ Merivale,,3
+118-135,118,Hurdman - Kanata,,3
+118-136,118,Hurdman - Kanata,,3
+118-138,118,Hurdman - Kanata,,3
+120-135,120,Avalon / Place d'Orléans,,3
+120-136,120,Avalon / Place d'Orléans,,3
+121-135,121,Hurdman - Blair,,3
+121-136,121,Hurdman - Blair,,3
+121-138,121,Hurdman - Blair,,3
+122-135,122,Millennium / Place d'Orléans,,3
+122-136,122,Millennium / Place d'Orléans,,3
+122-138,122,Millennium / Place d'Orléans,,3
+123-135,123,Blair,,3
+123-136,123,Blair,,3
+124-135,124,Gloucester North / nord,,3
+124-136,124,Gloucester North / nord,,3
+124-138,124,Gloucester North / nord,,3
+126-135,126,Gloucester North / nord,,3
+126-136,126,Gloucester North / nord,,3
+126-138,126,Gloucester North / nord,,3
+127-135,127,Blair \ St. Laurent,,3
+127-136,127,Blair \ St. Laurent,,3
+127-138,127,Blair \ St. Laurent,,3
+128-135,128,Blackburn Hamlet --Blair,,3
+128-136,128,Blackburn Hamlet --Blair,,3
+128-138,128,Blackburn Hamlet --Blair,,3
+129-135,129,Hurdman / Ottawa Rockliffe,,3
+129-136,129,Hurdman / Ottawa Rockliffe,,3
+129-138,129,Hurdman / Ottawa Rockliffe,,3
+130-135,130,Convent Glen / Fallingbrook,,3
+130-136,130,Convent Glen / Fallingbrook,,3
+130-138,130,Convent Glen / Fallingbrook,,3
+131-135,131,Convent Glen / Chapel Hill,,3
+131-136,131,Convent Glen / Chapel Hill,,3
+131-138,131,Convent Glen / Chapel Hill,,3
+132-135,132,Sunview -- Place D'Orléans,,3
+132-136,132,Sunview -- Place D'Orléans,,3
+132-138,132,Sunview -- Place D'Orléans,,3
+134-135,134,Renaud \ Orleans,,3
+134-136,134,Renaud \ Orleans,,3
+134-138,134,Renaud \ Orleans,,3
+135-135,135,Esprit / Place d'Orléans,,3
+135-136,135,Esprit / Place d'Orléans,,3
+135-138,135,Esprit / Place d'Orléans,,3
+136-135,136,Fallingbrook / Place d'Orléans,,3
+136-136,136,Fallingbrook / Place d'Orléans,,3
+137-135,137,Queenswood Heights,,3
+137-136,137,Queenswood Heights,,3
+140-135,140,Riverside \ Hurdman,,3
+140-136,140,Riverside \ Hurdman,,3
+143-135,143,Conroy -- Greenboro,,3
+143-136,143,Conroy -- Greenboro,,3
+143-138,143,Conroy -- Greenboro,,3
+144-135,144,Gloucester South / South Keys,,3
+144-136,144,Gloucester South / South Keys,,3
+144-138,144,Gloucester South / South Keys,,3
+146-135,146,South Keys \ Hurdman,,3
+146-136,146,South Keys \ Hurdman,,3
+146-138,146,South Keys \ Hurdman,,3
+147-135,147,Gloucester South / sud,,3
+147-136,147,Gloucester South / sud,,3
+147-138,147,Gloucester South / sud,,3
+148-135,148,Elmvale \ Hurdman,,3
+148-136,148,Elmvale \ Hurdman,,3
+148-138,148,Elmvale \ Hurdman,,3
+149-135,149,Elmvale \ Hurdman,,3
+149-136,149,Elmvale \ Hurdman,,3
+149-138,149,Elmvale \ Hurdman,,3
+150-135,150,Tunney's Pasture \ Lincoln Fields,,3
+150-136,150,Tunney's Pasture \ Lincoln Fields,,3
+151-135,151,Tunney's Pasture \ Merivale,,3
+151-136,151,Tunney's Pasture \ Merivale,,3
+152-135,152,Lincoln Fields \ Bayshore,,3
+152-136,152,Lincoln Fields \ Bayshore,,3
+152-138,152,Lincoln Fields \ Bayshore,,3
+156-135,156,Baseline --Merivale,,3
+156-136,156,Baseline --Merivale,,3
+156-138,156,Baseline --Merivale,,3
+157-135,157,Grenfell / Baseline,,3
+157-136,157,Grenfell / Baseline,,3
+159-135,159,Tunneys Pasture,,3
+159-136,159,Tunneys Pasture,,3
+159-138,159,Tunneys Pasture,,3
+161-135,161,Bridlewood\Terry Fox,,3
+161-136,161,Bridlewood\Terry Fox,,3
+163-135,163,Stittsville / Terry Fox Station,,3
+164-135,164,Bridlewood\Terry Fox\Hope Side,,3
+164-136,164,Bridlewood\Terry Fox\Hope Side,,3
+164-138,164,Bridlewood\Terry Fox\Hope Side,,3
+168-135,168,Beaverbrook \Terry Fox,,3
+168-136,168,Beaverbrook \Terry Fox,,3
+168-138,168,Beaverbrook \Terry Fox,,3
+170-135,170,Longfields\ Walter Baker,,3
+170-136,170,Longfields\ Walter Baker,,3
+170-138,170,Longfields\ Walter Baker,,3
+171-135,171,Barrhaven - Fallowfield,,3
+171-136,171,Barrhaven - Fallowfield,,3
+172-135,172,Lincoln Fields \ Bayshore,,3
+172-136,172,Lincoln Fields \ Bayshore,,3
+172-138,172,Lincoln Fields \ Bayshore,,3
+173-135,173,Barrhaven Centre\Fallowfield,,3
+173-136,173,Barrhaven Centre\Fallowfield,,3
+174-135,174,Baseline - Knoxdale,,3
+174-136,174,Baseline - Knoxdale,,3
+175-135,175,Barrhaven Centre/ Golflinks,,3
+175-136,175,Barrhaven Centre/ Golflinks,,3
+176-135,176,Barrhaven \ Tunney's Pasture,,3
+176-136,176,Barrhaven \ Tunney's Pasture,,3
+176-138,176,Barrhaven \ Tunney's Pasture,,3
+177-135,177,Barrhaven - Grand Canal,,3
+177-136,177,Barrhaven - Grand Canal,,3
+178-135,178,Lincoln Fields - Centrepointe,,3
+178-136,178,Lincoln Fields - Centrepointe,,3
+180-135,180,Bayshore -- Haanel,,3
+180-136,180,Bayshore -- Haanel,,3
+181-135,181,Eagleson - March - Legget,,3
+181-136,181,Eagleson - March - Legget,,3
+182-135,182,Kanata \ Downtown / Centre-ville,,3
+182-136,182,Kanata \ Downtown / Centre-ville,,3
+183-135,183,Terry Fox Stat/Palladium/Huntmar,,3
+185-136,185,Experimental Farm,,3
+185-138,185,Agriculture Museum,,3
+186-135,186,Rideau \ Nepean South / sud,,3
+186-136,186,Rideau \ Nepean South / sud,,3
+189-135,189,South Keys/Riverview,,3
+189-136,189,South Keys/Riverview,,3
+192-135,192,Hawthorne \ Hurdman,,3
+192-136,192,Hawthorne \ Hurdman,,3
+193-135,193,Blair / Orleans,,3
+193-136,193,Blair / Orleans,,3
+194-135,194,Canotek - Blair,,3
+194-136,194,Canotek - Blair,,3
+199-135,199,ORLEANS / RCMP HQ,,3
+199-136,199,ORLEANS / RCMP HQ,,3
+201-135,201,Richmond/Bayshore/Carlingwood,,3
+201-136,201,Richmond/Bayshore/Carlingwood,,3
+202-135,202,Navan/Sarsfield/St.Laurent,,3
+202-136,202,Navan/Sarsfield/St.Laurent,,3
+203-135,203,Dunrobin/Carp/Carlingwood,,3
+203-136,203,Dunrobin/Carp/Carlingwood,,3
+204-135,204,Metcalfe/Greely/Billings Bridge,,3
+204-136,204,Metcalfe/Greely/Billings Bridge,,3
+205-135,205,North Gower/Manotic/Carlingwood,,3
+205-136,205,North Gower/Manotic/Carlingwood,,3
+221-135,221,Rural Express Downtown \ Cumberland,,3
+221-136,221,Express Downtown \ Cumberland,,3
+231-135,231,Rural Express --Sarsfield--Navan,,3
+231-136,231,Express --Sarsfield--Navan,,3
+232-135,232,Rural Express Vars -- Carlsbad,,3
+232-136,232,Express Vars -- Carlsbad,,3
+245-135,245,Rural Express--North gower--Manotick,,3
+245-136,245,North gower--Manotick,,3
+261-135,261,Express Stittsville -- West Ridge,,3
+261-136,261,Express Stittsville -- West Ridge,,3
+262-135,262,Express Stittsville -- Carp Rd.,,3
+262-136,262,Express Stittsville -- Carp Rd.,,3
+263-135,263,Express Stittsville --Stanley Cnr.,,3
+263-136,263,Express Stittsville --Stanley Cnr.,,3
+283-135,283,Rural Express Richmond,,3
+283-136,283,Express Richmond,,3
+601-135,601,Louis Riel,,3
+602-135,602,De la Salle / Hurdman,,3
+611-135,611,Gisele Lalonde High School \ Orleans Loc,,3
+612-135,612,Gisele Lalonde High School \ Orleans Loc,,3
+613-135,613,Downtown / Centre-ville,,3
+618-135,618,Ecole Louis Riel \ Place D'Orleans,,3
+619-135,619,Ecole Louis Riel \ Blair,,3
+622-135,622,Colonel By HS \ Orleans,,3
+632-135,632,Gisele Lalonde HS \ Orleans Loc,,3
+633-135,633,LB Pearson HS \ St. Laurent,,3
+640-135,640,Brookfield HS \ Greenboro,,3
+641-135,641,Ecole Louis Riel \ Orleans,,3
+648-135,648,Ecole Louis Riel \ Orleans,,3
+661-135,661,Bell HS \ Kanata,,3
+665-135,665,Bell HS \ Bridlewood,,3
+669-135,669,Bell HS \ Bayshore,,3
+670-135,670,St. Pius HS \ Merivale,,3
+674-135,674,All Saints H.S. \ Kanata,,3
+678-135,678,Louis-Riel / Orleans,,3
+681-135,681,Bell HS \ Glen Cairn,,3
+691-135,691,Deslauriers / Bayshore,,3
+750-135,OTrn,Bayview -- Greenboro,,2
+750-136,OTrn,Bayview -- Greenboro,,2
+750-138,OTrn,Bayview -- Greenboro,,2
